@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - I CODER</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        .section-img {
+            border-radius: 12px;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+            color: #00ccff !important;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="web.html">I CODER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <!-- Home now opens index.html -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="web.html">Home</a>
+                    </li>
+
+                    <!-- Topics Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Topics</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
+                            <li><a class="dropdown-item" href="technology.html">Technology</a></li>
+                            <li><a class="dropdown-item" href="programming.html">Programming</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= WEB DEVELOPMENT SECTION ================= -->
+    <section class="bg-white">
+        <div class="container">
+            <h2>Web Development</h2>
+
+            <!-- Paragraphs with Images -->
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.lZcTQuv69wOV10v9JtAc2wHaEK?pid=Api&P=0&h=220" alt="HTML CSS" class="section-img">
+                </div>
+                <div class="col-md-6">
+                    <p>Web development is the process of building and maintaining websites. It involves working on the front-end (user interface), back-end (server logic), and databases to create functional and appealing web applications.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 order-md-2">
+                    <img src=" https://cdn.pixabay.com/photo/2024/01/16/10/50/computer-programmer-8511937_1280.jpg" alt="Frontend Development" class="section-img">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <p>Frontend development focuses on the visual aspects of a website that users interact with. Technologies like HTML, CSS, and JavaScript are used to create responsive, interactive, and visually appealing web pages.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <img src=" https://thumbs.dreamstime.com/b/binary-codes-laptop-programing-codes-wallpaper-download-ai-generated-images-codes-binary-codes-laptop-programing-codes-wallpaper-292794791.jpg" alt="Backend Development" class="section-img">
+                </div>
+                <div class="col-md-6">
+                    <p>Backend development deals with the server-side logic and database management. Languages such as Python, Node.js, PHP, and frameworks like Django or Express.js are commonly used to handle data and serve it to the front-end.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 order-md-2">
+                    <img src=" https://cdn.britannica.com/30/199930-131-B3D1D347/computer.jpg" alt="Full Stack" class="section-img">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <p>Full-stack development combines both front-end and back-end skills. A full-stack developer can build complete web applications, making them highly valuable in the tech industry due to their ability to handle all aspects of a project.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <img src="  https://extension.harvard.edu/wp-content/uploads/sites/8/2020/10/computer-programming.jpg" alt="Responsive Design" class="section-img">
+                </div>
+                <div class="col-md-6">
+                    <p>Responsive web design ensures that websites look good on all devices, from desktops to smartphones. CSS frameworks like Bootstrap and Tailwind make it easier to create layouts that adapt to different screen sizes.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-light text-center p-3">
+        <a href="index.html" class="text-light">Back to Home</a><br>
+        © 2020–2025 I CODER, Inc.
+    </footer>
+
+</body>
+
+</html>
